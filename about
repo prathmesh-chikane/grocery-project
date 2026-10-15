@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us - Ganesh General Store</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    .about-section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 50px;
+      gap: 40px;
+      background-color: #fff;
+      flex-wrap: wrap;
+    }
+
+    .about-image img {
+      width: 350px;
+      border-radius: 10px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .about-text {
+      max-width: 600px;
+    }
+
+    .about-text h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      letter-spacing: 2px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .about-text p {
+      font-size: 16px;
+      line-height: 1.8;
+      color: #555;
+      margin-bottom: 15px;
+    }
+
+    @media (max-width: 768px) {
+      .about-section {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .about-image img {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="about-section">
+    <div class="about-image">
+      <img src="C:\xamppp\htdocs\maja_bappa\images\kirana-new-bf88.jpg" alt="Ganesh General Store" />
+    </div>
+    <div class="about-text">
+      <h1>ABOUT US</h1>
+      <p>
+        Ganesh General Store began as a small family-run business in the heart of Satara, Maharashtra, with a mission to bring everyday essentials closer to the local community. What started as a modest retail shop has grown into a trusted destination for quality groceries, household products, and daily essentials.
+      </p>
+      <p>
+        Our goal has always been to offer convenience, affordability, and trust. Whether you're shopping for your monthly ration or picking up quick daily needs, we aim to make every experience easy and enjoyable. At Ganesh General Store, customers aren’t just buyers—they're part of our extended family.
+      </p>
+      <p>
+        Currently, were expanding our services online to make your shopping even simpler. Our digital platform allows you to browse, select, and order from the comfort of your home, with prompt delivery and personal service still at the heart of everything we do.
+      </p>
+    </div>
+  </section>
+</body>
+</html>
